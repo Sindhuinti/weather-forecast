@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #646fd4 !important;
+  color: white !important;
+}
+
+/* css for header */
+
+.heading {
+  font-weight: 50;
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 2.7rem;
+}
+
+span.heading {
+  font-weight: bold;
+}
+
+/* css for div element */
+
+.box {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  background-color: #222831;
+  color: white;
+  width: 85%;
+  max-width: 675px;
+  position: relative;
+  min-height: 300px;
+}
+
+.button {
+  background-image: linear-gradient(135deg, #72edf2 10%, #5151e5);
+  border: none;
+  border-radius: 17px;
+  padding: 10px 70px;
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  margin: 25px 30px;
+}
+
+.input {
+  border: none;
+  border-radius: 17px;
+  padding: 10px 35px;
+  background-color: white;
+  color: black;
+  font-weight: 200 bold;
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+}
+
+form {
+  align-items: center;
+  margin-top: 10%;
+}
+div.form {
+  background-color: #222831 !important;
+  padding: 50px;
+}
+.button:hover {
+  transform: scale(0.95);
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .input {
+    padding: 13px 1%;
+  }
+  .button {
+    padding: 13px 20%;
+  }
+  form {
+    margin-top: 20%;
+  }
+}
+
+/* css for loading */
+.load {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.load svg path,
+.load svg rect {
+  fill: #65b6ee;
+}
+
+/* css for error */
+
+.error {
+  bottom: 0;
+}
+
+/* css for data */
+.card-title {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #222831;
+}
+
+.card-info {
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #222831;
+}
+.box3 {
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+  background-color: #222831;
+  color: white;
+  width: 85%;
+  max-width: 675px;
+  min-height: 300px;
+}
+
+/* css for footer */
