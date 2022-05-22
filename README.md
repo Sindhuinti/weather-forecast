@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-[view demo]()
+[view demo](https://eclectic-pegasus-4efe32.netlify.app/)
 
 
 ## Author 
