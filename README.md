@@ -15,6 +15,5 @@
 
 👩🏻‍💻  **Sindhu Inti**
 
-## Show your support
 
-Give a ⭐ to my project.
+Give a ⭐ to my project if you love it.
