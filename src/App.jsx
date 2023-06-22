@@ -2,6 +2,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Page from "./components/Page";
 
 function App() {
-  return <Page />;
+  return <Page/>;
 }
 export default App;
